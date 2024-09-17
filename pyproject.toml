@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "taed2-dataexplorers"
+version = "0.1.0"
+description = ""
+authors = ["DataExplorers"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.2"
+numpy = "^2.1.1"
+scikit-learn = "^1.5.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+pylint = "^3.2.7"
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
